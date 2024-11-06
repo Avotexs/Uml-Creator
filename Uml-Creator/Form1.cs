@@ -19,9 +19,9 @@ namespace Uml_Creator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MessageBox.Show("taha");
-            ////
+            button1.Hide(); 
+            MessageBox.Show("this is MTB");
+
         }
     }
 }
