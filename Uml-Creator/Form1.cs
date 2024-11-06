@@ -21,5 +21,10 @@ namespace Uml_Creator
         {
             this.button1.Hide();
         }
+
+        private void buttonHide1_Click(object sender, EventArgs e)
+        {
+            buttonHide1.Hide();
+        }
     }
 }
