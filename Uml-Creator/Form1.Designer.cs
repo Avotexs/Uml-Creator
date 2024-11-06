@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.buttonHide1 = new System.Windows.Forms.Button();
+            this.taha = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -53,11 +54,22 @@
             this.buttonHide1.UseVisualStyleBackColor = true;
             this.buttonHide1.Click += new System.EventHandler(this.buttonHide1_Click);
             // 
+            // taha
+            // 
+            this.taha.Location = new System.Drawing.Point(456, 83);
+            this.taha.Name = "taha";
+            this.taha.Size = new System.Drawing.Size(75, 23);
+            this.taha.TabIndex = 2;
+            this.taha.Text = "taha";
+            this.taha.UseVisualStyleBackColor = true;
+            this.taha.Click += new System.EventHandler(this.taha_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.taha);
             this.Controls.Add(this.buttonHide1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -70,6 +82,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonHide1;
+        private System.Windows.Forms.Button taha;
     }
 }
 

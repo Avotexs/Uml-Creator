@@ -26,5 +26,11 @@ namespace Uml_Creator
         {
             buttonHide1.Hide();
         }
+
+        private void taha_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("THIS IS MTB !!!");
+            this.Close();
+        }
     }
 }
